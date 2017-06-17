@@ -9,4 +9,4 @@ ggplot(titanic, aes(x = Pclass, fill = Sex)) +
 # 3 - Plot 2, add facet_grid() layer
 ggplot(titanic, aes(x = Pclass, fill = Sex)) + 
   geom_bar(position = "dodge") + 
-  facet_grid(. ~ Survived)
+  facet_grid(. ~ Survived)  
